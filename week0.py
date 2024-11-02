@@ -13,6 +13,25 @@
 # HINT: using % operator to find remainder may be helpful
 def dose(needs):
     #YOUR SOLUTION STARTS HERE
+    sum = 0
+   
+    testdata = input("Enter a list:")
+    for x in testdata:
+        sum = sum + int(x)
+        if sum > 500:
+            print("No medicine given")
+        elif x%10 != 0:
+           print("No medicine given")
+        else:
+            return testdata
+       
+
+testdata = []            
+dose(testdata)
+
+
+
+
 
     #YOUR SOLUTION ENDS HERE
 
